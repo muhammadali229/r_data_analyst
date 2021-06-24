@@ -39,3 +39,16 @@ ggplot(mtcars, aes(mpg, qsec, color = factor(cyl), shape = factor(am),
                    size=hp / wt)) +
   geom_point()
 
+palette <- c(automatic = "#377EB8", manual = "#E41A1C")
+
+# Set the position
+ggplot(mtcars, aes(factor(cyl), fill = factor(am))) +
+  geom_bar(position = "dodge") +
+  labs(x = "Number of Cylinders", y = "Count")
+scale_fill_manual("Transmission", values = palette)
+
+ggplot(mtcars, aes(mpg, 0)) +
+  geom_jitter() +
+  # Set the y-axis limits
+  ylim(-2, 2)
+
