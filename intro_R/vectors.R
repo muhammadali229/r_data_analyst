@@ -143,3 +143,5 @@ roulette_winning_days <- roulette_vector[selection_vector]
 
 # print roulette_winning_days
 roulette_winning_days
+
+c("a", "b", "c", "d") %in% c("d", "a")

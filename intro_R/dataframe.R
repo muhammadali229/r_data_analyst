@@ -78,3 +78,10 @@ positions <-  order(planets_df$diameter, decreasing = TRUE)
 positions
 # Use positions to sort planets_df
 planets_df[positions, ]
+nrow(planets_df)
+ncol(planets_df)
+dim(planets_df)
+
+class(planets_df$type)
+x <- data.frame(id=1:2, name=c("a","b"))
+class(x$name)

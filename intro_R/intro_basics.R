@@ -60,3 +60,7 @@ class(my_character)
 
 # Check class of my_logical
 class(my_logical)
+
+date1 <- "2018-12-20 11:30:00 EST"
+date2 <- "2018-12-20 11:20:00 EST"
+difftime(date1, date2, units = "min")
