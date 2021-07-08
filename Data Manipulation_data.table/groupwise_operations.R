@@ -62,3 +62,7 @@ unique_station_month <- batrips[, lapply(
   by = .(month(start_date)), 
   .SDcols = c("start_station", "zip_code")]
 unique_station_month
+##########
+d <- data.table(id = 1:6, age = 25:30)
+d
+d[, .(row_min_id = which.min(age), row_max_id = which.max(age))]
