@@ -1,0 +1,61 @@
+country	year	population	industry	gdp
+Australia	1995	18124770	agriculture	203255918527
+Australia	1995	18124770	tourism	16937993211
+Australia	2010	22162863	agriculture	251235509702
+Australia	2010	22162863	tourism	83745169901
+Fiji	1995	775498	agriculture	909795885
+Fiji	1995	775498	tourism	75816324
+Fiji	2010	859952	agriculture	858374960
+Fiji	2010	859952	tourism	286124987
+French Polynesia	1995	215200	agriculture	1757071669
+French Polynesia	1995	215200	tourism	146422639
+French Polynesia	2010	268065	agriculture	
+French Polynesia	2010	268065	tourism	
+Kiribati	1995	77727	agriculture	30851872
+Kiribati	1995	77727	tourism	2570989
+Kiribati	2010	102648	agriculture	32960593
+Kiribati	2010	102648	tourism	10986864
+Marshall Islands	1995	51020	agriculture	79013564
+Marshall Islands	1995	51020	tourism	6584464
+Marshall Islands	2010	52428	agriculture	57501830
+Marshall Islands	2010	52428	tourism	19167277
+Micronesia, Fed. Sts.	1995	107556	agriculture	141299673
+Micronesia, Fed. Sts.	1995	107556	tourism	11774973
+Micronesia, Fed. Sts.	2010	103619	agriculture	99507059
+Micronesia, Fed. Sts.	2010	103619	tourism	33169020
+New Caledonia	1995	189198	agriculture	1544020902
+New Caledonia	1995	189198	tourism	128668409
+New Caledonia	2010	246345	agriculture	
+New Caledonia	2010	246345	tourism	
+New Zealand	1995	3674886	agriculture	27102661058
+New Zealand	1995	3674886	tourism	2258555088
+New Zealand	2010	4369027	agriculture	28761951991
+New Zealand	2010	4369027	tourism	9587317330
+Palau	1995	17255	agriculture	65799806
+Palau	1995	17255	tourism	5483317
+Palau	2010	20470	agriculture	53028860
+Palau	2010	20470	tourism	17676287
+Papua New Guinea	1995	4715929	agriculture	2135536733
+Papua New Guinea	1995	4715929	tourism	177961394
+Papua New Guinea	2010	6847517	agriculture	2293197469
+Papua New Guinea	2010	6847517	tourism	764399156
+Samoa	1995	170158	agriculture	122958155
+Samoa	1995	170158	tourism	10246513
+Samoa	2010	186029	agriculture	148135684
+Samoa	2010	186029	tourism	49378561
+Solomon Islands	1995	359236	agriculture	302577980
+Solomon Islands	1995	359236	tourism	25214832
+Solomon Islands	2010	526177	agriculture	270825615
+Solomon Islands	2010	526177	tourism	90275205
+Tonga	1995	95889	agriculture	102709238
+Tonga	1995	95889	tourism	8559103
+Tonga	2010	103947	agriculture	96790433
+Tonga	2010	103947	tourism	32263478
+Tuvalu	1995	9227	agriculture	7079118
+Tuvalu	1995	9227	tourism	589927
+Tuvalu	2010	9827	agriculture	6898482
+Tuvalu	2010	9827	tourism	2299494
+Vanuatu	1995	168236	agriculture	137125712
+Vanuatu	1995	168236	tourism	11427143
+Vanuatu	2010	236299	agriculture	161882022
+Vanuatu	2010	236299	tourism	53960674
