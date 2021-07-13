@@ -77,8 +77,3 @@ reproducible
 heart_2[framingham, on = .(gene), mult = "first"]
 # Anti-join
 reproducible[!framingham, on = .(gene)]
-
-
-
-
-
