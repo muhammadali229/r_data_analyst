@@ -47,8 +47,8 @@ ggplot(mtcars, aes(factor(cyl), fill = factor(am))) +
   labs(x = "Number of Cylinders", y = "Count")
 scale_fill_manual("Transmission", values = palette)
 
-ggplot(mtcars, aes(mpg, 0)) +
-  geom_jitter() +
-  # Set the y-axis limits
-  ylim(-2, 2)
+# ggplot(mtcars, aes(mpg, 0)) +
+#   geom_jitter() +
+#   # Set the y-axis limits
+#   ylim(-2, 2)
 
