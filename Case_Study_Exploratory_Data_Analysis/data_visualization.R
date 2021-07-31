@@ -1,5 +1,7 @@
 # Load the dplyr package
 library(dplyr)
+# Load the countrycode package
+library(countrycode)
 # Load the ggolot2 package
 library(ggplot2)
 # Load the votes dataset
