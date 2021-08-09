@@ -49,13 +49,57 @@ size_distribution %>%
   # Calculate prob_4_or_more by taking sum of probabilities
   summarize(prob_4_or_more = sum(probability))
 ###############################################################
-
-
-
-
-
-
-
-
-
+# Min and max wait times for back-up that happens every 30 min
+min <- 0
+max <- 30
+# Calculate probability of waiting less than 5 mins
+prob_less_than_5 <- punif(5, min, max)
+prob_less_than_5
+# Calculate probability of waiting more than 5 mins
+prob_greater_than_5 <- punif(5, min, max, lower.tail = FALSE)
+prob_greater_than_5
+# Calculate probability of waiting 10-20 mins
+prob_between_10_and_20 <- punif(20, min, max) - punif(10, min, max) 
+prob_between_10_and_20
+###############################################################
+# Set random seed to 334
+set.seed(334)
+wait_times <- data.frame(
+  simulation_nb = seq(1, 1000)
+)
+# Generate 1000 wait times between 0 and 30 mins, save in time column
+wait_times %>%
+  mutate(time = runif(1000, min = 0, max = 30)) %>%
+  # Create a histogram of simulated times
+  ggplot(aes(time)) +
+  geom_histogram(bins = 30)
+###############################################################
+# Set random seed to 10
+set.seed(10)
+# Simulate a single deal
+rbinom(1, 1, 0.3)
+# Simulate 1 week of 3 deals
+rbinom(1, 3, 0.3)
+# Simulate 52 weeks of 3 deals
+deals <- rbinom(52, 3, 0.3)
+# Calculate mean deals won per week
+mean(deals)
+###############################################################
+# Probability of closing 3 out of 3 deals
+dbinom(3, 3, 0.3)
+# Probability of closing <= 1 deal out of 3 deals
+pbinom(1, 3, 0.3)
+# Probability of closing > 1 deal out of 3 deals
+pbinom(1, 3, 0.3, lower.tail = FALSE)
+# Expected number won with 30% win rate
+won_30pct <- 3 * 0.3
+won_30pct
+# Expected number won with 25% win rate
+won_25pct <- 3 * 0.25
+won_25pct
+# Expected number won with 35% win rate
+won_35pct <- 3 * 0.35
+won_35pct
+# Excellent expectation experimentation! If Amir's win rate goes up by 5%,
+# he can expect to close more than 1 deal on average each week.
 ###############################################################
