@@ -2,6 +2,8 @@
 library(readr)
 # Load dylyr
 library(dplyr)
+# Load tidyr
+library(tidyr)
 # Load ggplot2
 library(ggplot2)
 # Load forcats

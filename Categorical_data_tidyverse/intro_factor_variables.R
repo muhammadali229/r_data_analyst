@@ -4,6 +4,8 @@ library(readr)
 library(dplyr)
 # Load ggplot2
 library(ggplot2)
+# Load tidyr
+library(tidyr)
 # Load forcats
 library(forcats)
 # Load multiple_choice_responses_old dataset
